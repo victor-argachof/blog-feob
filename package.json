@@ -1,0 +1,70 @@
+{
+  "name": "clinario-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && rm -rf .next/cache",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.2",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-radio-group": "^1.2.2",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-switch": "^1.1.2",
+    "@radix-ui/react-tabs": "^1.1.2",
+    "@radix-ui/react-tooltip": "^1.1.6",
+    "@remixicon/react": "^4.6.0",
+    "@supabase/supabase-js": "^2.49.1",
+    "@tabler/icons-react": "^3.30.0",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
+    "easymde": "^2.20.0",
+    "framer-motion": "^12.4.3",
+    "gray-matter": "^4.0.3",
+    "jose": "^6.0.10",
+    "jsonwebtoken": "^9.0.2",
+    "motion": "^12.4.3",
+    "mysql2": "^3.14.0",
+    "next": "^15.2.1",
+    "next-themes": "^0.4.4",
+    "react": "^19.0.0",
+    "react-dom": "19.0.0",
+    "react-simplemde-editor": "^5.2.0",
+    "react-wrap-balancer": "^1.1.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "remove-markdown": "^0.6.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwind-variants": "^0.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.9",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^9.20.1",
+    "eslint-config-next": "^15.1.7",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "shiki": "^2.4.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.0.4",
+      "@types/react-dom": "19.0.2"
+    }
+  }
+}
